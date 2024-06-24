@@ -1,0 +1,56 @@
+.grid-container{
+    display:grid;
+    grid-template-areas: 
+    'side-sectiona side-sectiona top-centre top-centre side-sectionb side-sectionb '
+    'side-sectiona side-sectiona top-centre top-centre side-sectionb side-sectionb '
+    'side-sectiona side-sectiona top-centre top-centre side-sectionb side-sectionb '
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    'side-sectiona side-sectiona centre-section centre-section side-sectionb side-sectionb'
+    
+    
+    ;
+
+    grid-template-columns:250px  ;
+    grid-template-rows:100px 100px 80px 100px 100px 100px 100px 120px;
+
+}
+
+
+
+#top-centre{
+    
+    grid-area: top-centre;
+    background-image: url(../pictures/background.jpg);
+   
+
+}
+
+#side-sectiona{
+    
+    grid-area:side-sectiona;
+    border-right: 10px;
+    border-right: 2px  solid white;
+    background-color: rgb(253, 241, 253);
+}
+
+#side-sectionb{
+    border-left: 1px  solid white;
+    grid-area:side-sectionb;
+    background-color: rgb(253, 241, 253);
+}
+
+
+
+#centre-section{
+    background-color: rgb(253, 241, 253);
+    grid-area: centre-section;
+    border-left: 0%;
+}
+
+
+    
